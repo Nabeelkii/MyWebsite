@@ -1,58 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <title>List</title>
+<html lang="en">
+
 <head>
-  <style>
-   .hea{
-	text-align:center;
-}
-   h1{
-	text-align:center;
-}
-</style>
- </head>
-<!--<img src="test.png" alt="If image cannot be displayed">-->
-<!--wrap something in  <a href> tag to link it, target=_unblank to open in new tab-->
- <body>
-  <a href="index.html" target=_unblank><h1 class="hea"> Make your own list<h1></a>
-<form id="form" onsubmit="return false;">
-<p> 
-<button onclick="water()">Add</button>
-<input type="text" id="userInput" style="width: 90%;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="index.html" target="_blank">Linkedin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-</p>
-</form>
-<p style="text-align: center;" id="add"></p>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am a Robotics Systems Student from SIT...</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Insert your projects here -->
+            <div class="project">
+                <h3>System Engineering Project</h3>
+                <p>Description of the project.</p>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <p></p>
+        </div>
+    </footer>
+</body>
 
-<script>
-function water()
-{
-
-let input = document.getElementById("userInput").value;
-let btn=document.createElement("button");
-let brk=document.createElement("br")
-let brk2=document.createElement("br")
-if (input==''){  input="Empty";}
-btn.innerHTML=String(input);
-btn.onclick= function(){
-  btn.remove()
-  brk.remove()
-  brk2.remove()
-};
-btn.style.height="30px";
-document.getElementById("add").appendChild(brk);
-document.getElementById("add").appendChild(brk2);
-document.getElementById("add").insertBefore(btn,brk);
-//document.getElementById("add").appendChild(btn);
-
-document.getElementById("userInput").value='';
-
-}
-
-
-</script>
- </body>
 </html>
