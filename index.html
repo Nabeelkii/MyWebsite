@@ -1,54 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="vendor.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <header>
-        <div class="container">
-            <h1>My Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="index.html" target="_blank">Linkedin</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<body id="top">
+    <div id="page" class="s-pagewrap ss-home">
+        <header class="s-header">
+            <div class="row s-header__inner width-sixteen-col">
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+			Homepage
+                        </a>
+                    </div>
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+                <nav class="s-header__nav">
+                    <ul class="s-header__menu-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#Projects">Projects</a></li>
+                    </ul> <!-- s-header__menu-links -->
+                </nav> <!-- end s-header__nav -->
+            </div> <!-- end s-header__inner -->
+        </header> <!-- end s-header -->
+        <section id="content" class="s-content">
+            <section id="intro" class="s-intro">
+                <div class="row s-intro__content width-sixteen-col">
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Nabeel</div>
+                            <h1 class="s-intro__content-title">
+                            I am a Robotics Enthusiast
+                            </h1>
+                        </div> <!-- s-intro__content-text -->
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                                </div>
+                                <span>Scroll for more</span>
+                            </a>
+                        </div> <!-- s-intro__scroll-down -->                       
+                    </div> <!-- s-intro__content-inner -->
+                </div> <!-- s-intro__content -->
+            </section> <!-- end s-intro -->
 
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>I am a Robotics Systems Student from SIT...</p>
+            <!-- about----------------------------------------------- -->
+            <section id="about" class="s-about target-section">
+
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+
+                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">About</div>             
+              
+                            <h2 class="text-display-title">
+                            My journey so far
+                            </h2>          
+<p class="attention-getter">
+                            I studied Engineering during my polytechnic which equipped me with basic engineering skills. I am currently pursuing a Robotics Degree where I learnt more skills like programming in C and Embedded C
+                            </p>
+                 
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content-main grid-section-split__primary">
+                             <div class="section-header grid-section-split__header">                         
+                            <h2 class="text-display-title">
+                            My Skills
+                            </h2>                                
+                            <p class="lead">                     
+		<div class="skills">
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">C++</div>
+	      <div class="skills__skill">SolidWorks</div>
+            	</div>
+                            </p>
+                        </div> <!-- end section-header -->
+
+
+                        </div> <!-- end s-about__content-main -->
+
+                        <div class="s-about__content-btn grid-section-split__bottom">
+                            <a href="index.html" class="btn btn--stroke u-fullwidth" target="_blank">LinkedIn</a>
+			    <a href="index.html" class="btn btn--stroke u-fullwidth" target="_blank">Github</a>
+
+                        </div> <!-- end s-about__content-btn -->
+                    
+                    </div> <!-- content-inner -->
                 </div>
-            </div>
-        </div>
-    </section>
+                
+            </section> <!-- end s-about -->
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <!-- Insert your projects here -->
-            <div class="project">
-                <h3>System Engineering Project</h3>
-                <p>Description of the project.</p>
-            </div>
-        </div>
-    </section>
+           
+            <!-- Projects ----------------------------------------------- -->
+            <section id="Projects" class="s-clients">          
 
-    <footer>
-        <div class="container">
-            <p></p>
-        </div>
-    </footer>
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+                    
+                        <div class="section-header grid-section-split__header">                                                    
+                            <h2 class="text-display-title">
+                            Projects
+                            </h2>    
+			<div class="text-pretitle">Projects I have worked on so far</div>   
+                        </div> <!-- end section-header -->
+                    
+                   </div> <!-- end column -->
+                </div> <!-- end row -->
+
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12">
+                    
+                        <div class="clients-list">                            
+                            <div class="clients-list__item">
+                                <a href="Project1.html" target="_blank">
+					System Engineering Project
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="Project2.html" target="_blank">
+                                    Lite kit
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="Project3.html" target="_blank">
+                                    Limo
+                                </a>
+                            </div>
+			<div class="clients-list__item">
+                                <a href="Project3.html" target="_blank">
+                                    ROS
+                                </a>
+                            </div>
+
+
+                            </div> <!-- end clients-list -->
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+                                           
+        </section> <!-- s-content-->
+       
+        <!-- # footer  ================================================== -->
+        <footer class="s-footer">
+                       
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Monica 2022</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a> Distribution By <a href="https://themewagon.com">ThemeWagon</a></span>
+                    </p>
+                </div>
+               </div>         
+        </footer> <!-- end s-footer -->
+    </div> <!-- end page-wrap -->
 </body>
-
 </html>
