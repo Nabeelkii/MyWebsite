@@ -274,7 +274,7 @@ textarea {
 
 .projects__row {
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 5rem;
   margin-bottom: 11rem; }
   @media only screen and (max-width: 56.25em) {
@@ -288,6 +288,11 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
+/* Project Padding */
+background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+/* Project Padding */
     overflow: hidden; }
   .projects__row-img {
     width: 100%;
