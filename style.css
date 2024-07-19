@@ -627,3 +627,11 @@ background: #f4f4f4;
   to {
     opacity: 0;
     top: 27px; } }
+
+video {
+    padding:0px;
+    margin:0px;
+    width:100%;
+    height:100vh;
+    object-fit: contain;
+  }
