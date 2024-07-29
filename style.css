@@ -42,6 +42,41 @@ body {
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif; }
 
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px; /* Increase font size */
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px; /* Increase font size */
+}
+
+td, th {
+  border: 5px solid #dddddd;
+  text-align: left;
+  padding: 12px; /* Increase padding */
+}
+
+tr {
+  min-height: 40px; /* Set minimum height for rows */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+td:first-child, th:first-child {
+  background-color: #ffffff; /* Grey for the first column */
+}
+
+td:nth-child(2), th:nth-child(2) {
+  background-color: #ffffff; /* White for the second column */
+}
 a {
   text-decoration: none;
   color: inherit; }
