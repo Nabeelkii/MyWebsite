@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub"><a href="./index.html">Nabeel</a></span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">Projects</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://www.linkedin.com/in/nabeelpage/" class="header__link" target="_blank">Linkedin</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about">About</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects">Projects</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="https://www.linkedin.com/in/nabeelpage/" class="header__link" target="_blank">Linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+          <span class="heading-sec__main">Limo Robot</span>
+        <div class="projects__content">
+            <div class="projects__row-img-cont">
+               <video width="320" height="240" controls>
+          <source src="./assets/Limo.mp4" type="video/mp4" />
+        </video>
+   
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">About the project</h3>
+              <p class="projects__row-content-desc">
+This project was done using the agilex Limo robot. Using Ros, the robot is able to navigate from point to point. The project made use of gmapping and vslam to achieve this. This project also involved designing the area where the robot moved.Each team was assigned a small area. I designed and fabricated the building that was part of the area the team was assigned.
+              </p>
+<div class="projects__row-content">
+
+<h3 class="heading-sec__sub">CAD File:<br> 
+<img
+                src="./assets/png/iFly.png"
+                alt="Product Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+
+
+            </h3>
+
+
+ <h3 class="heading-sec__sub">Github link to project with all the code:<br><a href="https://github.com/Nabeelkii/Limo-Project" target=_blank>Limo Project</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section id="projects" class="projects sec-pad">
+      <div class="main-container">
+          <span class="heading-sec__main">Maze Solving Robot</span>
+<span class="heading-sec__sub">
+            A small side project where a robot is able to solve any type of maze by following the left wall.Done in gazebo using ROS
+          </span>
+
+        <div class="projects__content">
+
+            <div class="projects__row-img-cont">
+               <video width="320" height="240" controls loop>
+          <source src="./assets/Maze.mp4" type="video/mp4" />
+        </video>
+   
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   
+       <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Nabeel's Portfolio</h4>
+            <p class="main-footer__short-desc">
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+

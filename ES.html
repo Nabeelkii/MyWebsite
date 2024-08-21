@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My webpage</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  position: relative;
+  text-align: center;
+font-size: 20px;
+  color: White;
+}
+
+.image-container {
+  position: absolute; /* Set position to relative */
+}
+.image-container.center-aligned {
+  position: absolute;
+  left:33%; 
+}
+.image-container.left-aligned {
+  position: absolute;
+  left:1%; 
+}
+
+.image-container:hover .image-overlay {
+color: white;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.image-overlay {
+  position: absolute;
+   top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%);
+  width: 100%; /* Adjust width to cover the entire container */
+  height: 100%; /* Adjust height to cover the entire container */
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+
+
+.image-overlay p {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+ bottom: 0;
+width: 100%;
+}
+
+.image-overlay p a {
+  color: yellow;
+  text-decoration: none; 
+}
+
+.image-overlay p img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+transform: translate(-50%, 7.5%);
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+</head>
+<body>
+	<h1>Embedded System Project</h1>
+<hr/>
+
+<div class="image-container left-aligned">
+<div class="image-container"> 
+<div class="container">
+  <img src="./assets/png/Webpage.png" width="400" height="300"> 
+  <div class="image-overlay"> 
+    <p><img src="./assets/png/LED.png" width="400" height="300"></p> 
+  </div> 
+</div>
+</div> 
+</div> 
+
+
+
+<div class="image-container center-aligned">
+<div class="image-container"> 
+<div class="container">
+  <img src="./assets/png/iFly.png" width="350" height="300"> 
+<div class="centered">CAD<br>(Computer Aided Design)</div>
+  <div class="image-overlay"> 
+    <p><img src="./assets/jpeg/iFly irl.jpeg" width="350" height="300"></p> 
+  </div> 
+</div>
+</div> 
+</div> 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p><h3>Embedded C</h3>
+ A website that is able to control the LED
+on a circuit board
+</p>
+</body>
+</html>
