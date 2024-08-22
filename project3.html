@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+
+    <link rel="stylesheet" href="style2.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub"><a href="./index.html">Nabeel</a></span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">Projects</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="https://www.linkedin.com/in/nabeelpage/" class="header__link" target="_blank">Linkedin</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about">About</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects">Projects</a>
+            </li>
+            <li class="header__sm-menu-link">
+              <a href="https://www.linkedin.com/in/nabeelpage/" class="header__link" target="_blank">Linkedin</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Embedded Systems</span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+<div class="image-container left-aligned">
+   <div class="container">
+  <img src="./assets/png/Webpage.png" width="400" height="300"> 
+  <div class="image-overlay"> 
+    <p><img src="./assets/png/LED.png" width="400" height="300"></p> 
+  </div> 
+</div>
+</div>
+               </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">About the project</h3>
+              <p class="projects__row-content-desc">
+The project had multiple phases, the first phase is controlling the LED from the website.<br>This was done using a microcontroller and a wifi module called an ESP32 to wirelessly control the LEDs on a website.<br>
+The final phase was controlling the mobile moving platform from the website such that it was able to follow a black line. I was unable to fully complete the final phase, however I did get it working to a certain extent.
+              </p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+ <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">The Demo</span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+<div class="image-container left-aligned">
+   <div class="container">
+ <video controls>
+          <source src="./assets/Website.mp4" type="video/mp4" />
+        </video> 
+</div>
+
+</div>
+ </div>
+<!--Right side-->
+            <div class="projects__row-content">
+             <video controls>
+          <source src="./assets/Car.mp4" type="video/mp4" />
+        </video>
+<h3 class="heading-sec__sub">The video above shows the final phase, which makes use of a camera to detect the black line and follow it. It then stops moving when it does not detect any black lines.</h3>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+ 
+
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Nabeel's Portfolio</h4>
+            <p class="main-footer__short-desc">
+            </p>
+          </div>
+        </div>
+        <div class="main-footer__lower">
+          &copy; Copyright 2021. Made by
+          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com">Ram Maheshwari</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
