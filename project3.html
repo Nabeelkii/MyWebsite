@@ -70,67 +70,53 @@
       </div>
     </header>
 
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Embedded Systems</span>
-        </h2>
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-<div class="image-container left-aligned">
-   <div class="container">
-  <img src="./assets/png/Webpage.png" width="400" height="300"> 
-  <div class="image-overlay"> 
-    <p><img src="./assets/png/LED.png" width="400" height="300"></p> 
-  </div> 
-</div>
-</div>
-               </div>
-            <div class="projects__row-content">
-              <h3 class="projects__row-content-title">About the project</h3>
-              <p class="projects__row-content-desc">
+
+    
+<section id="projects" class="projects sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">Embedded Systems Project</span>
+    </h2>
+
+    <div class="projects__content">
+      <div class="projects__row three-way-split">
+        
+        <div class="projects__column">
+          <div class="video-wrapper">
+          </div>
+          <h3 class="projects__row-content-title">About the project</h3>
+           <p class="projects__row-content-desc" style="text-align: left;">
 This project involved creating a mobile moving platform capable of being controlled wirelessly.
 This was done using a microcontroller and a wifi module called an ESP32
 The first step was to control an LED light from the website hosted on the ESP32. This was done successfully and the LED light could be turned on and off from the website.<br>
 The next step was to control the movement of the platform using the website.
 Finally, the onboard pixycamera was used to detect a black line and follow it. The platform would stop moving when it did not detect any black lines.
 The robot could be stopped and started from the website.
-              </p></div>
-          </div>
+              </p>
         </div>
-      </div>
-    </section>
 
-    
- <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">The Demo</span>
-        </h2>
-        <div class="projects__content">
-          <div class="projects__row">
-            <div class="projects__row-img-cont">
-<div class="image-container left-aligned">
-   <div class="container">
- <video controls>
-          <source src="./assets/Website.mp4" type="video/mp4" />
-        </video> 
-</div>
-
-</div>
- </div>
-<!--Right side-->
-            <div class="projects__row-content">
-             <video  width="400" height="300" controls>
-          <source src="./assets/Car.mp4" type="video/mp4" />
-        </video>
-<h3 class="heading-sec__sub">The video above shows the robot autonomous movement which makes use of a camera to detect the black line and follow it. It then stops moving when it does not detect any black lines.</h3>
-</div>
+        <div class="projects__column">
+          <div class="video-wrapper">
+            <video controls>
+              <source src="./assets/Website.mp4" type="video/mp4" />
+            </video>
           </div>
+          <h3 class="projects__caption">Website Interface Demo</h3>
         </div>
+
+        <div class="projects__column">
+          <div class="video-wrapper">
+            <video width="100%" controls>
+              <source src="./assets/Car.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <h3 class="projects__caption">Autonomous Line Following Robot</h3>
+        </div>
+
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
  
 
