@@ -145,6 +145,51 @@ A small side project where a robot is able to solve a maze by following the left
         </div> <!--close main container-->
     </section>
 
+    <section id="projects" class="projects sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">JetArm Project</span>
+    </h2>
+
+    <div class="projects__content">
+      <div class="projects__row three-way-split">
+        
+        <div class="projects__column">
+          <div class="video-wrapper">
+          </div>
+          <h3 class="projects__row-content-title">About the project</h3>
+           <p class="projects__row-content-desc" style="text-align: left;">
+This project involved making a Jetson Robot arm doing several things. One of them was to pick and place a block using vision. 
+Using ROS, the robot detects where the block is using the QR code ontop, picks it up,and places it in a predefind home position. 
+The other one was using the same vision system to identify where the QR code is on the camera, then move to its position.
+
+              </p>
+        </div>
+
+        <div class="projects__column">
+          <div class="video-wrapper">
+            <video controls>
+              <source src="./assets/TrackingJetson.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <h3 class="projects__caption">Tracking block position</h3>
+        </div>
+
+        <div class="projects__column">
+          <div class="video-wrapper">
+            <video width="100%" controls>
+              <source src="./assets/PickNPlaceJetson.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <h3 class="projects__caption">Pick and place block to designated location</h3>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
    
        <footer class="main-footer">
