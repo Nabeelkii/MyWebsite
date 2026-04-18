@@ -87,7 +87,7 @@
           <h3 class="projects__row-content-title">About the project</h3>
            <p class="projects__row-content-desc" style="text-align: left;">
 This project involved creating a mobile moving platform capable of being controlled wirelessly.
-This was done using a microcontroller and a wifi module called an ESP32
+This was done using a microcontroller and a wifi module called an ESP32.<br>
 The first step was to control an LED light from the website hosted on the ESP32. This was done successfully and the LED light could be turned on and off from the website.<br>
 The next step was to control the movement of the platform using the website.
 Finally, the onboard pixycamera was used to detect a black line and follow it. The platform would stop moving when it did not detect any black lines.
@@ -117,6 +117,49 @@ The robot could be stopped and started from the website.
     </div>
   </div>
 </section>
+
+   
+
+
+
+    <section id="Zephyr" class="projects sec-pad">
+  <div class="main-container">
+    <h2 class="heading heading-sec heading-sec__mb-bg">
+      <span class="heading-sec__main">Zephyr RTOS Projects</span>
+    </h2>
+    
+    <div class="projects__content">
+      <div class="projects__row">   
+        
+        <div class="projects__row-img-cont">
+           <img src="./assets/png/ModbusCAN.png" alt="Protocol Analysis" class="projects__row-img" />
+        </div>
+
+        <div class="projects__row-content">
+          
+          <div class="projects__row-content-desc">
+            <div style="margin-bottom: 30px;">
+              <h4 style="font-weight: bold; color: #333;">Sensor Project</h4>
+              <p>
+Developed a specialized Zephyr RTOS-based SDK to facilitate high-reliability data acquisition from hardware peripherals. 
+I engineered a robust communication pipeline that took in raw sensor data via UART and translated it into a standardized Modbus stream for industrial broadcasting.
+              </p>
+            </div>
+
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+
+            <div>
+              <h4 style="font-weight: bold; color: #333;">Concurrent Multi-Bus Data Broadcast</h4>
+              <p>
+                Developed high-concurrency firmware to manage real-time data acquisition and multi-protocol broadcasting. 
+                Leveraging Zephyr’s thread synchronization, the system interpreted raw telemetry and dispatched it over 
+                <strong>CAN bus</strong> and <strong>Modbus</strong> simultaneously, ensuring clean data transmission across two industrial interfaces.
+              </p>
+            </div>
+          </div>
+
+      </div> </div> </div> 
+    </section>
 
  
 
